@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Navbar from "./component/Navbar";
 
-function App() {
+const App = () => {
   return (
-    <div className='text-2xl font-bold text-center'>Digitools Platform</div>
-  )
-}
+    <div className="min-h-screen">
+      <Navbar />
+    </div>
+  );
+};
 
-export default App
+export default App;
