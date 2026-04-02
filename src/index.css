@@ -1,7 +1,5 @@
 @import "tailwindcss";
-
-/* font */
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@plugin "daisyui";
 
 body {
   font-family: "Manrope", sans-serif;
